@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/nine" android:title="09:00"/>
+    <item android:id="@+id/ten" android:title="10:00" />
+    <item android:id="@+id/eleven" android:title="11:00" />
+    <item android:id="@+id/twelve" android:title="12:00"/>
+    <item android:id="@+id/one" android:title="13:00" />
+    <item android:id="@+id/two" android:title="14:00" />
+    <item android:id="@+id/three" android:title="15:00" />
+
+</menu>

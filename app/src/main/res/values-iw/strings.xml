@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">האחים קצב</string>
+    <string name="address">מוסך האחים קצב, הבנאי 24 חולון</string>
+    <string name="connectUs">צור קשר</string>
+    <string name="garageTitle">מוסך מורשה, הבנאי 24 חולון</string>
+    <string name="connectByTelephone">טלפון</string>
+    <string name="connectByEmail">דוא\"ל</string>
+    <string name="scheduleAMeeting">קבע פגישה</string>
+    <string name="departments">מחלקות</string>
+    <string name="navigate">נווט</string>
+    <string name="facebook">פייסבוק</string>
+    <string name="test">הכנה והעברת טסט</string>
+    <string name="periodicalCare">טיפול תקופתי</string>
+    <string name="frontAdjustment">כיוון פרונט</string>
+    <string name="technicalDepartment">מחלקה טכנית</string>
+    <string name="mechanicsDepartment">מחלקת מכונאות</string>
+    <string name="tinsmithsDepartment">מחלקת פחחות</string>
+    <string name="myCarType">סוג הרכב שלי</string>
+    <string-array name="treatmentType">
+        <item><string name="selectArr">בחר טיפול</string></item>
+        <item><string name="periodicalCareArr">טיפול תקופתי</string></item>
+        <item><string name="testArr">הכנה והעברת טסט</string></item>
+        <item><string name="frontAdjustmentArr">כיוון פרונט</string></item>
+    </string-array>
+    <string name="selectTreatment">בחר טיפול</string>
+    <string name="honda">הונדה</string>
+    <string name="subaru">סובארו</string>
+    <string name="toyota">טויוטה</string>
+    <string name="care">תן לנו לטפל ב</string>
+    <string name="yours">" שלך"</string>
+    <string name="plslct">ראשית בחר סוג רכב</string>
+    <string name="treatments"><![CDATA[
+קביעת
+טיפול
+    ]]></string>
+    <string name="name">שם מלא</string>
+    <string name="telephone">טלפון</string>
+    <string name="license">מספר רישוי</string>
+    <string name="slctDate">תאריך</string>
+    <string name="slctHour">שעה</string>
+    <string name="email">דוא\"ל</string>
+    <string name="msg">הודעה</string>
+    <string name="testPrepaid">יש לי שובר תשלום לטסט</string>
+    <string name="idScreen">צילום ת\"ז</string>
+    <string name="insurance">ביטוח חובה</string>
+    <string name="sendRequest">שלח בקשה</string>
+    <string name="load">טען קובץ</string>
+    <string name="doneID">צילום ת\"ז - בוצע</string>
+    <string name="previous">חזור</string>
+    <string name="doneInsurance">ביטוח חובה</string>
+    <string name="car">לרכב</string>
+    <string name="finish">סיים</string>
+    <string name="addCalendarEvent">הוסף ללוח שנה</string>
+    <string name="requestTreatment">בקשה לטיפול</string>
+    <string name="requestSent">בקשתך נשלחה בהצלחה !</string>
+    <string name="manager">מנהל המחלקה:</string>
+    <string name="yosef">יוסף קצב</string>
+    <string name="menashe">מנשה קצב</string>
+    <string name="limor">לימור קצב</string>
+    <string name="sheManager">מנהלת המחלקה:</string>
+    <string name="heAnswer">לא עונה? הגדר תזכורת לחיוג חוזר:</string>
+    <string name="savecontact">שמור כאיש קשר</string>
+    <string name="fillAll">אנא מלא את כל השדות</string>
+    <string name="dep">מחלקות המוסך</string>
+    <string name="hour">שעה</string>
+    <string name="minute">דקה</string>
+    <string name="alertMsg3">לטלפן למוסך-טכנית</string>
+    <string name="notValidTime">אנא הזן זמן תקין</string>
+    <string name="alertMsg2">לטלפן למוסך-מכאנית</string>
+    <string name="alertMsg1">לטלפן למוסך-פחחות</string>
+    <string name="startTreat"><![CDATA[
+תחילת
+טיפול
+    ]]></string>
+    <string name="sheAnswer">לא עונה? הגדר תזכורת לחיוג חוזר:</string>
+    <string name="info">מידע</string>
+    <string name="timerInfo"><![CDATA[
+ממהרים לחזור לעיסוקים שלכם בזמן שהרכב בטיפול?
+
+אל תתנו לאף אחד לעכב אתכם!
+
+בחרו את סוג הטיפול ואשרו את הטיימר,
+אנחנו כבר נדאג להגדיר את הזמן בתאם לאורך הטיפול.
+
+כך תוכלו לחזור אלינו רק כשהרכב מוכן!]]></string>
+    <string name="startTreat2">תחילת טיפול</string>
+    <string name="setTimer">הגדר טיימר</string>
+    <string name="pleaseSlctTreat">אנא בחר סוג טיפול</string>
+    <string name="statTimer">הוגדר טיימר לטיפול</string>
+    <string name="camera">מצלמה</string>
+    <string name="gallery">גלריה</string>
+    <string name="info1"><![CDATA[
+- קביעת טיפול
+- תחילת טיפול
+- הצגת המחלקות
+- חיוג למוסך
+- ניווט באמצעות waze
+- גישה לעמוד הפייסבוק שלנו
+    ]]></string>
+    <string name="info2"><![CDATA[
+- בחירת סוג טיפול
+- מילוי פרטים אישיים
+- מילוי מועד הטיפול (תאריך ושעה)
+- העלאת תצלום ביטוח חובה מהגלריה
+    או ישירות מהמצלמה
+- הוספת אירוע הטיפול ללוח השנה
+    ]]></string>
+    <string name="info3"><![CDATA[
+- הגדרת טיימר למהלך הטיפול
+    ]]></string>
+    <string name="info4"><![CDATA[
+- הצגת 3 המחלקות של המוסך
+- חיוג למנהלי המחלקות
+- הגדרת תזכורת (שעון מעורר) לחיוג חוזר
+    ]]></string>
+    <string name="infoStart"><![CDATA[
+ברוכים הבאים
+למוסך האחים קצב!
+
+להלן מגוון פעולות
+שניתן לבצע באפליקציה:
+    ]]></string>
+    <string name="page1"><![CDATA[
+עמוד ראשי - בחירת שירותים:
+    ]]></string>
+    <string name="page2">עמוד קביעת טיפול:</string>
+    <string name="page3">עמוד תחילת טיפול:</string>
+    <string name="page4">עמוד מחלקות המוסך:</string>
+    <string name="enjoy"><![CDATA[
+שימוש מהנה !
+   האחים קצב
+    ]]></string>
+    <string name="icons1">*לחץ על האייקונים</string>
+</resources>

@@ -1,0 +1,634 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_centerHorizontal="true"
+    android:layout_centerVertical="true"
+    android:background="@color/colorWhite">
+
+    <!-- שכבת תמיכה לתמונת הרקע -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <!-- תמונת הרקע -->
+        <ImageView
+            android:layout_width="1000dp"
+            android:layout_height="1000dp"
+            android:layout_gravity="center"
+            android:src="@drawable/background6" />
+    </LinearLayout>
+
+
+    <!-- השכבה שמכילה הכל -->
+    <LinearLayout
+        android:id="@+id/all_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ScrollView
+            android:id="@+id/scrollView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <LinearLayout
+                android:id="@+id/scrollLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <!--  שכבת הלוגו -->
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp">
+
+                    <TextView
+                        android:id="@+id/txtType"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:background="@color/colorWhite3"
+                        android:gravity="center"
+                        android:text="@string/dep"
+                        android:textColor="@color/line2Color"
+                        android:textSize="25sp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>  <!-- סגירת שכבת הלוגו -->
+
+
+                <!--  שכבת מחלקות - טבלאית -->
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+///////////////////////////////////////////01tinsmithsLayout////////////////////
+    <LinearLayout
+        android:id="@+id/tinsmithsLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginHorizontal="15dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/treatment_shape"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:visibility="invisible"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:paddingVertical="10dp"
+            android:text="@string/tinsmithsDepartment"
+            android:textColor="@color/line2Color"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            />
+
+        <ImageView
+            android:layout_width="180dp"
+            android:layout_height="120dp"
+            android:layout_marginBottom="12dp"
+            android:src="@drawable/tinsmith"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="1dp"
+            android:layout_marginHorizontal="10dp"
+            android:gravity="center"
+            android:text="@string/manager"
+            android:textColor="@color/line2Color"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_marginVertical="10dp"
+            android:orientation="horizontal"
+            >
+
+
+            <TextView
+                android:id="@+id/tinsmithManagerNameTV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="1dp"
+                android:layout_marginHorizontal="5dp"
+                android:gravity="center"
+                android:text="@string/yosef"
+                android:textColor="@color/line2Color"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                />
+
+
+            <Button
+                android:id="@+id/callDep1"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_gravity="start|center"
+                android:layout_marginHorizontal="10dp"
+                android:background="@drawable/call2"
+                android:gravity="center"
+                />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:orientation="vertical"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/colorWhite0"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_margin="10dp"
+                android:text="@string/heAnswer"
+                android:textAllCaps="false"
+                android:layout_marginHorizontal="20dp"
+                android:textColor="@color/line2Color"
+                android:textSize="14sp"
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_marginStart="5dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginBottom="25dp"
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal"
+                >
+
+                <RelativeLayout
+                    android:layout_width="130dp"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true">
+
+                    <EditText
+                        android:id="@+id/hurET1"
+                        android:layout_width="60dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:textAllCaps="false"
+                        android:hint="@string/hour"
+                        android:inputType="number"
+                        android:layout_alignParentLeft="true"
+                        android:maxLength="2"
+                        android:textColor="@color/line2Color"
+                        android:textSize="14sp"
+                        />
+
+                    <EditText
+                        android:id="@+id/minET1"
+                        android:layout_width="60dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:textAllCaps="false"
+                        android:inputType="number"
+                        android:layout_alignParentRight="true"
+                        android:maxLength="2"
+                        android:hint="@string/minute"
+                        android:textColor="@color/line2Color"
+                        android:textSize="14sp"
+                        />
+                </RelativeLayout>
+
+                <Button
+                    android:id="@+id/alertDep1"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="40dp"
+                    android:background="@drawable/hour"
+                    android:gravity="center|start"
+                    android:onClick="setAlarm1"/>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    ///////////////////////////////////////////02mechanicsLayout////////////////////
+
+    <LinearLayout
+        android:id="@+id/mechanicsLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginHorizontal="15dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/treatment_shape"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:visibility="invisible"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:paddingVertical="10dp"
+            android:text="@string/mechanicsDepartment"
+            android:textColor="@color/line2Color"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            />
+
+        <ImageView
+            android:layout_width="180dp"
+            android:layout_height="120dp"
+            android:layout_marginBottom="12dp"
+            android:src="@drawable/mechani"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="1dp"
+            android:layout_marginHorizontal="10dp"
+            android:gravity="center"
+            android:text="@string/manager"
+            android:textColor="@color/line2Color"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_marginVertical="10dp"
+            android:orientation="horizontal"
+            >
+
+
+
+
+            <TextView
+                android:id="@+id/mechanicManagerNameTV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="1dp"
+                android:layout_marginHorizontal="5dp"
+                android:gravity="center"
+                android:text="@string/menashe"
+                android:textColor="@color/line2Color"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                />
+
+
+            <Button
+                android:id="@+id/callDep2"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_gravity="start|center"
+                android:layout_marginHorizontal="10dp"
+                android:background="@drawable/call2"
+                android:gravity="center"
+                />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:orientation="vertical"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/colorWhite0"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_margin="10dp"
+                android:text="@string/heAnswer"
+                android:textAllCaps="false"
+                android:layout_marginHorizontal="20dp"
+                android:textColor="@color/line2Color"
+                android:textSize="14sp"
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_marginStart="5dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginBottom="25dp"
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal"
+                >
+
+                <RelativeLayout
+                    android:layout_width="130dp"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true">
+
+                    <EditText
+                        android:id="@+id/hurET2"
+                        android:layout_width="60dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:textAllCaps="false"
+                        android:hint="@string/hour"
+                        android:inputType="number"
+                        android:layout_alignParentLeft="true"
+                        android:maxLength="2"
+                        android:textColor="@color/line2Color"
+                        android:textSize="14sp"
+                        />
+
+                    <EditText
+                        android:id="@+id/minET2"
+                        android:layout_width="60dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:textAllCaps="false"
+                        android:inputType="number"
+                        android:layout_alignParentRight="true"
+                        android:maxLength="2"
+                        android:hint="@string/minute"
+                        android:textColor="@color/line2Color"
+                        android:textSize="14sp"
+                        />
+                </RelativeLayout>
+
+                <Button
+                    android:id="@+id/alertDep2"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="40dp"
+                    android:background="@drawable/hour"
+                    android:gravity="center|start"
+                    android:onClick="setAlarm2"/>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    ///////////////////////////////////////////03technicalLayout////////////////////
+
+                <LinearLayout
+                    android:id="@+id/technicalLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginHorizontal="15dp"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/treatment_shape"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:visibility="invisible"
+                    >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="10dp"
+                        android:gravity="center"
+                        android:paddingVertical="10dp"
+                        android:text="@string/technicalDepartment"
+                        android:textColor="@color/line2Color"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        />
+
+                    <ImageView
+                        android:layout_width="180dp"
+                        android:layout_height="120dp"
+                        android:layout_marginBottom="12dp"
+                        android:src="@drawable/techni"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_margin="1dp"
+                        android:layout_marginHorizontal="10dp"
+                        android:gravity="center"
+                        android:text="@string/sheManager"
+                        android:textColor="@color/line2Color"
+                        android:textSize="15sp"
+                        android:textStyle="bold"
+                        />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:layout_marginVertical="10dp"
+                        android:orientation="horizontal"
+                        >
+
+
+
+
+                        <TextView
+                            android:id="@+id/technicalManagerNameTV"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_margin="1dp"
+                            android:layout_marginHorizontal="5dp"
+                            android:gravity="center"
+                            android:text="@string/limor"
+                            android:textColor="@color/line2Color"
+                            android:textSize="15sp"
+                            android:textStyle="bold"
+                            />
+
+
+                        <Button
+                            android:id="@+id/callDep3"
+                            android:layout_width="40dp"
+                            android:layout_height="40dp"
+                            android:layout_gravity="start|center"
+                            android:layout_marginHorizontal="10dp"
+                            android:background="@drawable/call2"
+                            android:gravity="center"
+                            />
+
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginEnd="20dp"
+                        android:orientation="vertical"
+                        >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@color/colorWhite0"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:layout_margin="10dp"
+                            android:text="@string/heAnswer"
+                            android:textAllCaps="false"
+                            android:layout_marginHorizontal="20dp"
+                            android:textColor="@color/line2Color"
+                            android:textSize="14sp"
+                            />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:layout_marginStart="5dp"
+                            android:layout_marginEnd="5dp"
+                            android:layout_marginBottom="25dp"
+                            android:layout_marginTop="5dp"
+                            android:orientation="horizontal"
+                            >
+
+                            <RelativeLayout
+                                android:layout_width="130dp"
+                                android:layout_height="wrap_content"
+                                android:layout_centerHorizontal="true"
+                                android:layout_centerVertical="true">
+
+                                <EditText
+                                    android:id="@+id/hurET3"
+                                    android:layout_width="60dp"
+                                    android:layout_height="wrap_content"
+                                    android:gravity="center"
+                                    android:textAllCaps="false"
+                                    android:hint="@string/hour"
+                                    android:inputType="number"
+                                    android:layout_alignParentLeft="true"
+                                    android:maxLength="2"
+                                    android:textColor="@color/line2Color"
+                                    android:textSize="14sp"
+                                    />
+
+                                <EditText
+                                    android:id="@+id/minET3"
+                                    android:layout_width="60dp"
+                                    android:layout_height="wrap_content"
+                                    android:gravity="center"
+                                    android:textAllCaps="false"
+                                    android:inputType="number"
+                                    android:layout_alignParentRight="true"
+                                    android:maxLength="2"
+                                    android:hint="@string/minute"
+                                    android:textColor="@color/line2Color"
+                                    android:textSize="14sp"
+                                    />
+                            </RelativeLayout>
+
+                            <Button
+                                android:id="@+id/alertDep3"
+                                android:layout_width="40dp"
+                                android:layout_height="40dp"
+                                android:layout_marginStart="40dp"
+                                android:background="@drawable/hour"
+                                android:gravity="center|start"
+                                android:onClick="setAlarm3"/>
+
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+
+                </LinearLayout>
+</RelativeLayout>
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_marginTop="15dp"
+                android:orientation="horizontal"
+                >
+
+
+                <Button
+                    android:id="@+id/previousBtn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start|center"
+                    android:background="@drawable/shape"
+                    android:gravity="center"
+                    android:textAllCaps="false"
+                    android:layout_marginHorizontal="30dp"
+                    android:text="@string/previous" />
+
+
+                <Button
+                    android:id="@+id/depBtn"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_gravity="center"
+                    android:layout_marginHorizontal="30dp"
+                    android:background="@drawable/departments2"
+                    android:gravity="bottom|center"
+                    android:onClick="selectDepartment" />
+
+
+            </LinearLayout>
+
+            </LinearLayout>
+
+
+        </ScrollView>
+    </LinearLayout>
+
+</RelativeLayout>

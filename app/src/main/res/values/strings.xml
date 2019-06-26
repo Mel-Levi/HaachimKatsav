@@ -1,0 +1,147 @@
+<resources>
+    <string name="app_name">Ha\'achim Katsav</string>
+    <string name="address">Ha\'achim Katsav\'s garage, Habanay 24 Holon</string>
+    <string name="garageTitle">Certified garage, Habanay 24 Holon</string>
+    <string name="connectUs">Connect us</string>
+    <string name="connectByTelephone">Telephone</string>
+    <string name="connectByEmail">Email</string>
+    <string name="scheduleAMeeting">Schedule a meeting</string>
+    <string name="departments">Departments</string>
+    <string name="navigate">Navigate</string>
+    <string name="facebook">Facebook</string>
+    <string name="test">Test</string>
+    <string name="periodicalCare">Periodical care</string>
+    <string name="frontAdjustment">Front adjustment</string>
+    <string name="technicalDepartment">Technical department</string>
+    <string name="mechanicsDepartment">Mechanics department</string>
+    <string name="tinsmithsDepartment">Tinsmiths department</string>
+    <string name="myCarType">My car type</string>
+    <string-array name="treatmentType">
+        <item><string name="selectArr">Select Service</string></item>
+        <item><string name="periodicalCareArr">Periodical care</string></item>
+        <item><string name="testArr">test</string></item>
+        <item><string name="frontAdjustmentArr">Front adjustment</string></item>
+    </string-array>
+    <string name="selectTreatment">Select Service</string>
+    <string name="honda">Honda</string>
+    <string name="subaru">Subaru</string>
+    <string name="toyota">Toyota</string>
+    <string name="care">"Let us take care of your "</string>
+    <string name="yours"></string>
+    <string name="plslct">Please select car type first</string>
+    <string name="treatments"><![CDATA[
+  Service
+reservation
+    ]]></string>
+    <string name="name">Full name</string>
+    <string name="telephone">Telephone</string>
+    <string name="license">License plate</string>
+    <string name="slctDate">Date</string>
+    <string name="slctHour">Hour</string>
+    <string name="email">Email</string>
+    <string name="msg">Massage</string>
+    <string name="testPrepaid">I have a voucher for the test</string>
+    <string name="idScreen">ID screen</string>
+    <string name="insurance">Insurance</string>
+    <string name="sendRequest">Send a request</string>
+    <string name="load">Load file</string>
+    <string name="doneID">ID screen - Done</string>
+    <string name="previous">Previous</string>
+    <string name="doneInsurance">Insurance</string>
+    <string name="car">car</string>
+    <string name="finish">Finish</string>
+    <string name="addCalendarEvent">Add calendar event</string>
+    <string name="requestTreatment">Request for Service</string>
+    <string name="requestSent">Your request has been succesfully submited !</string>
+    <string name="manager">Department manager:</string>
+    <string name="yosef">Yossef Katsav</string>
+    <string name="menashe">Menashe Katsav</string>
+    <string name="limor">Limor Katsav</string>
+    <string name="sheManager">Department manager:</string>
+    <string name="heAnswer"><![CDATA[
+Didn\'t he answer?
+Set redial reminder:
+    ]]></string>
+    <string name="sheAnswer"><![CDATA[
+Didn\'t she answer?
+Set redial reminder:
+    ]]></string>
+    <string name="savecontact">Save as a contact</string>
+    <string name="fillAll">Please fill out all fields</string>
+    <string name="dep">Departments</string>
+    <string name="hour">Hour</string>
+    <string name="minute">Minute</string>
+    <string name="alertMsg3">Call garage-technic</string>
+    <string name="notValidTime">Please enter a valid time</string>
+    <string name="alertMsg2">Call garage-machanic</string>
+    <string name="alertMsg1">Call garage-Tinsmith</string>
+    <string name="startTreat"><![CDATA[
+ Start
+Service
+    ]]></string>
+    <string name="info">Info</string>
+    <string name="timerInfo"><![CDATA[
+Can't wait to go back to your buissness
+while your car is in the garage?
+
+Don't let anyone to waste your time!
+
+Choose your desired service and
+confirm the timer, we will set the
+timer according to the service time.
+
+You can come back just as your car is ready!
+    ]]></string>
+    <string name="startTreat2">Start Service</string>
+    <string name="setTimer">Set Timer</string>
+    <string name="pleaseSlctTreat">Please select Service type</string>
+    <string name="statTimer">Timer set for</string>
+    <string name="camera">Camera</string>
+    <string name="gallery">Gallery</string>
+    <string name="info1"><![CDATA[
+- Service reservation
+- Start service
+- Show departments
+- Call the garage
+- Navigate with Waze
+- Go to our Facebook page
+    ]]></string>
+    <string name="info2"><![CDATA[
+- Choose type of service
+- Fill personal information
+- Pick date and time for
+   service appointment
+- Upload insurance copy or take
+   a photo of your insurance
+- Add service event to your calendar
+    ]]></string>
+    <string name="info3"><![CDATA[
+- Set timer for service duration
+    ]]></string>
+    <string name="info4"><![CDATA[
+- View the 3 departments in the garage
+- Call department manegers
+- Set reminder (Alarm clock) for redial
+    ]]></string>
+    <string name="infoStart"><![CDATA[
+Welcome to
+Ha'achim Katsav's Garage!
+
+What you can do with this app:
+    ]]></string>
+    <string name="page1"><![CDATA[
+ Main page - pick service:
+    ]]></string>
+    <string name="page2"><![CDATA[
+    Service reservation page:
+    ]]></string>
+    <string name="page3">Start service page:</string>
+    <string name="page4"><![CDATA[
+    Garage departments page:
+    ]]></string>
+    <string name="enjoy"><![CDATA[
+Enjoy tha app !
+Ha'achim Katsav
+    ]]></string>
+    <string name="icons1">*Click the icons</string>
+</resources>
